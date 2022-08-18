@@ -7,9 +7,9 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     @basecomment = "Ruby on Rails Tutorial Sample App"
   end
   
-  test "should get root" do 
+ test "should get root" do
     get root_url
-    assert_response :succes
+    assert_response :success
   end
   
   test "should get home" do
