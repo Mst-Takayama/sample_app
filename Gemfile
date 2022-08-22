@@ -7,11 +7,13 @@ gem 'rails',      '6.0.4'
 gem 'puma',       '4.3.6'
 gem 'sass-rails', '5.1.0'
 gem 'webpacker',  '4.0.7'
+gem 'bootstrap-sass', '3.4.1'
 gem 'turbolinks', '5.2.0'
 gem 'jbuilder',   '2.9.1'
 gem 'bootsnap',   '1.10.3', require: false
 gem 'rubocop', require:false
 gem 'rubocop-rails', require:false
+gem 'solargraph', require: false
 
 
 group :development, :test do
@@ -37,9 +39,9 @@ group :test do
   gem 'guard-minitest',           '2.4.6'
 end
 
-group :production do
-  gem 'pg', '1.1.4'
-end
+# group :production do
+#   gem 'pg', '1.1.4'
+# end
 
 # Windows ではタイムゾーン情報用の tzinfo-data gem を含める必要があります
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
