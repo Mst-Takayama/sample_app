@@ -14,6 +14,7 @@ gem 'bootsnap',   '1.10.3', require: false
 gem 'rubocop', require:false
 gem 'rubocop-rails', require:false
 gem 'solargraph', require: false
+gem 'bcrypt',         '3.1.13'
 
 
 group :development, :test do
